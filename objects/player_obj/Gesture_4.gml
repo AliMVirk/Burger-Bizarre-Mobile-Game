@@ -24,7 +24,7 @@ if (dir > 226 && dir < 314) {
 	direction = 270;
 	sprite_index = playerWalk_spr;
 }
-if (dir > 316 && dir < 44) {
+if (dir > 316 && dir < 404) {
 	// Swipe right
 	speed = 20;
 	direction = 0;
