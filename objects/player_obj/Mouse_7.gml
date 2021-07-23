@@ -6,8 +6,8 @@ mouse_end_y = mouse_y;
 dir = point_direction(mouse_start_x, mouse_start_y, mouse_end_x, mouse_end_y);
 
 if (speed == 0) {
-if (dir > 316 && dir < 44) {
-	// Swipe right *FIX*
+if (dir > 316 && dir < 404) {
+	// Swipe right
 	speed = 20;
 	direction = 0;
 	sprite_index = playerRight_spr;
